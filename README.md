@@ -19,7 +19,7 @@ https://www.reddit.com/r/ender3/comments/hymv70/marlin_20x_guide_skr_mini_e3_v12
 
 - Linear advance is used, not S-Acceleration
 
-- Probe Points are 3 x 3, so 9 total
+- Probe Points are 3 x 3 - firmware3x3.bin and 4x4 - firmware4x4.bin 
 
 - ***** Bltouch is used at the Z-Axis stop
   - The mount used is the metal one that comes in the bltouch creality kit: https://img.staticbg.com/images/oaupload/banggood/images/29/4F/302fbeca-2822-4ff5-a3b5-b3c7d0e42d8d.png
