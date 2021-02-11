@@ -1,7 +1,7 @@
 # Ender-3-Marlin-2.0.7.2-Firmware
 My custom firmware for an Ender 3 v1 using a BigTreeTech Mini SKRv1.2 with a BLtouch v3.1 and stock metal mount.
 
-My compiled firmware.bin is under the folder compiled_fw, I wouldn't just use it, I would compile your own based on what you want and your probe offsets, but you can try at yoru own risk, its your printer!
+My compiled firmware.bin is under the folder compiled_fw, I wouldn't just use it, I would compile your own based on what you want and your probe offsets, but you can try at your own risk, its your printer!
 
 
 The Official readme is official_readme.md or alternatively just go to the Marlin github repository.
