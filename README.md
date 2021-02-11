@@ -1,5 +1,8 @@
 # Ender-3-Marlin-2.0.7.2-Firmware
 My custom firmware for an Ender 3 v1 using a BigTreeTech Mini SKRv1.2 with a BLtouch v3.1 and stock metal mount.
+
+The Official readme is official_readme.md or alternatively just go to the Marlin github repository.
+
 This is based off of the official Marlin github repository: https://github.com/MarlinFirmware/Marlin/commit/5ee1087959f88dc60386ff3caa21e75d9e20b128
 *** BLtouch is used as the Z-Axis stop
 
