@@ -37,6 +37,6 @@ https://www.reddit.com/r/ender3/comments/hymv70/marlin_20x_guide_skr_mini_e3_v12
 - No filament runout sensor
 
 - buzzer is disabled
-  - if you want to disable the buzzer your self, the location is in Marlin/pins/stm32f1/pins_BTT_SKR_MINI_E3_commin.h/
+  - if you want to disable the buzzer your self, the location is in Marlin/pins/stm32f1/pins_BTT_SKR_MINI_E3_common.h/
      - search for #define BEEPER_PIN and set the value to '-1'
     
