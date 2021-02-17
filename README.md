@@ -25,7 +25,7 @@ https://www.reddit.com/r/ender3/comments/hymv70/marlin_20x_guide_skr_mini_e3_v12
 
 - ***** Bltouch is used at the Z-Axis stop
   - The mount used is the metal one that comes in the bltouch creality kit: https://img.staticbg.com/images/oaupload/banggood/images/29/4F/302fbeca-2822-4ff5-a3b5-b3c7d0e42d8d.png
-  - I found my probe offsets to be NOZZLE_TO_PROBE_OFFSET { -44, -9, 0 } to start.
+  - I found my probe offsets to be NOZZLE_TO_PROBE_OFFSET { -43, -6.5, 0 } to start.
     - I adjusted the z offset usign the z-offset wizard, see video here: https://www.youtube.com/watch?v=fN_ndWvXGBQ
       - If you prefer the old fashioned way see here: https://www.youtube.com/watch?v=Q5M7DvdMcew
         - If using the firmware config I have above you will need to disable the z axis safe setting using this command: M211 S0 (this allows the axis to go below 0.00)
