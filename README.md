@@ -1,4 +1,7 @@
 # Ender-3-Marlin-2.0.7.2-Firmware
+
+*** BLtouch is used as the Z-Axis stop, that means I have removed the z-axis stop switch.
+
 My custom firmware for an Ender 3 v1 using a BigTreeTech Mini SKRv1.2 with a BLtouch v3.1 and stock metal mount.
 
 My compiled firmware.bin is under the folder compiled_fw, I wouldn't just use it, I would compile your own based on what you want and your probe offsets, but you can try at your own risk, its your printer!
@@ -7,6 +10,7 @@ My compiled firmware.bin is under the folder compiled_fw, I wouldn't just use it
 The Official readme is official_readme.md or alternatively just go to the Marlin github repository.
 
 This is based off of the official Marlin github repository: https://github.com/MarlinFirmware/Marlin/commit/5ee1087959f88dc60386ff3caa21e75d9e20b128
+
 *** BLtouch is used as the Z-Axis stop
 
 I fumbled around with issues and found this github issue: https://github.com/MarlinFirmware/Marlin/issues/20105. I was having similar issues, using the BTT fork of Marlin.
@@ -17,7 +21,6 @@ So I ended up just using the official Marlin branch as that issue seem to resolv
 Configured using the following guide:
 https://www.reddit.com/r/ender3/comments/hymv70/marlin_20x_guide_skr_mini_e3_v12_ender_3/
 
-- Linear advance is used, not S-Acceleration
 
 - Probe Points are 3 x 3 - firmware3x3.bin and 4x4 - firmware4x4.bin 
 - I went ahead and added a s-curve acceleration precompiled firmware - firmware-scurve-4x4.bin and a precompile firmware with scurve and linear advance both disabled
